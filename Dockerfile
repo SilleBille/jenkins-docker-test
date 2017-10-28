@@ -15,7 +15,7 @@ COPY jenkins.sh /usr/local/bin/jenkins.sh
 RUN pwd
 
 # for main web interface: 
-EXPOSE 8080 # will be used by attached slave agents: 
+EXPOSE 8080
 EXPOSE 50000 
 
 USER jenkins 
